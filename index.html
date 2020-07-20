@@ -55,15 +55,15 @@
 										</header>	
 										<br>
 										<p>Nowadays, field programmable gate arrays (FPGAs) are integrated into modern heterogeneous platforms, 
-                                            which run a great number of safety-critical applications. For example, FPGAs are deployed in conventional
-                                            wireless base stations, in satellites and in satellite communication systems. In
-                                            datacenters, FPGAs are used as acceleration platforms and as smart networking solutions (e.g.,
-                                            as NICs).
+                                            running a variety of safety-critical applications. They are often used along with CPUs.
                                             The key to FPGA success is their reconfigurability, which enables integration of future
                                             advancement and innovation through the device service life. Additionally, one can interconnect
-                                            hardware resources in parallel, to match toughest real-time requirements. Modern FPGAs (e.g.,
-                                            Xilinx Ultrascale+ series) contain millions of programmable cells, forcing the designers to use
-                                            third-party IP cores, which carry the risk of being infected with malicious code.
+											hardware resources in parallel, to match toughest real-time requirements. Modern FPGAs
+											 contain millions of programmable cells, forcing the designers to use
+											third-party IP cores, which carry the risk of being infected with malicious code.
+											Furthermore, researchers have recently demonstrated using the FPGA fabric to carry out side-channel, 
+											fault injection and denial of service attacks. CPUs also have a variety of known attacks leveraging
+											shared memory or microarchitectural state.
                                             In this project, our focus is on discovering new security vulnerabilities introduced by FPGAs in
                                             heterogeneous systems. These might leverage the CPU software, the CPU microarchitecture, the FPGA
                                             low-level programmable fabric, the shared memory,
